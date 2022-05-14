@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="AAK">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Quotes App</title>
+    <link rel="icon" href="images/quotes.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!------------------------------------------ QUOTE GENERATOR ------------------------------------------>
+    <section class="home-bg container-fluid min-vh-100">
+        <div class="bg-black bg-opacity-25 min-vh-100 row justify-content-center align-items-center position-relative">
+            <div class="parent bg-black col-8 p-5 text-center position-relative my-5">
+                <div class="head-icon bg-white">
+                    <i class="fa-solid fa-quote-left fa-3x"></i>
+                </div>
+                <h1 class="text-center text-white my-4 fw-bold">Quote of the Day</h1>
+                <p id="quoteDisplay" class="text-white fw-light mt-5">
+                    <!--Quote Will Display Here-->
+                </p>
+                <p id="quoteAuthor" class="name text-white mb-5">
+                    <!--Quote Author Will Display Here-->
+                </p>
+                <div class="row px-0 px-xl-5 align-items-baseline">
+                    <p class="col-xl-8 mb-3 mb-xl-0 fw-bold m-0 text-light-purple guide">Press the button to recieve a
+                        random
+                        quote!</p>
+                    <div class="col-xl-3">
+                        <button id="newQuote" class="btn btn-custom shadow-none border-0 fw-light">New Quote</button>
+                    </div>
+                </div>
+            </div>
+            <img src="images/Untitled.png" alt="quote icon"
+                class="w-25 position-absolute end-0 bottom-0 p-0 opacity-25" />
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
