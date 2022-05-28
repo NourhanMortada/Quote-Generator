@@ -65,7 +65,7 @@ h1 {
 }
 
 .btn-custom:hover {
-    color: rgb(137, 266, 21;
+    color: rgb(137, 226, 21);
     background-color: var(--purple);
     animation-iteration-count: unset;
 }
